@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    font-size: 56px;
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,28,17,0.5116959) 0%, rgba(14,24,5,0.88888888888) 25%, rgba(251,217,57,0.269005847953) 76%, rgba(25,27,21,1) 98%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.questions-container {
+    margin: auto;
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    border-radius: 5px;
+}
